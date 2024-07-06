@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{7b74fc8b-2673-45b4-9624-ef907f8e7a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\Character">
+      <UniqueIdentifier>{a002e709-175e-4f81-b2a6-36af5f351bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\Tileset">
+      <UniqueIdentifier>{7a832a89-1542-4913-87f3-73753964a1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\Potions">
+      <UniqueIdentifier>{c9f49fe4-2a9e-41f6-b3fe-e0b1d519ed21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Origem.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Tilemap.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterController.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Tilemap.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterController.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tex.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="tex.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Character\CharacterSheet_CharacterFront.png">
+      <Filter>Arquivos de Recurso\Character</Filter>
+    </Image>
+    <Image Include="Assets\Character\CharacterSheet_FroggoBack.png">
+      <Filter>Arquivos de Recurso\Character</Filter>
+    </Image>
+    <Image Include="Assets\Tileset\spritesheet.png">
+      <Filter>Arquivos de Recurso\Tileset</Filter>
+    </Image>
+    <Image Include="Assets\Tileset\spritesheet_padding.png">
+      <Filter>Arquivos de Recurso\Tileset</Filter>
+    </Image>
+    <Image Include="Assets\Util\PotionsSheet.png">
+      <Filter>Arquivos de Recurso\Potions</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\map.txt">
+      <Filter>Arquivos de Recurso</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
